@@ -42,8 +42,8 @@ params:
       url: "https://github.com/Al3xBogo/wardensmp.com"
 
   editPost:
-    URL: "https://github.com/Al3xBogo/wardensmp.com/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/Al3xBogo/wardensmp.com/tree/main/content"
+    Text: "Edit" # edit text
     appendFilePath: true # to append file path to Edit link
 
 menu:
