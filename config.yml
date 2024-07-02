@@ -1,0 +1,66 @@
+baseURL: "https://wardensmp.com/"
+title: WardenSMP
+paginate: 5
+theme: PaperMod
+
+params:
+  title: WardenSMP
+  keywords: [SMP, Server, Multiplayer]
+  author: _A13X
+  ShowCodeCopyButtons: true
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
+  label:
+    text: "WardenSMP"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: WardenSMP
+    subtitle: "Long-Term, FREE To Play, Vanilla Survival!"
+    imageUrl: "/apple-touch-icon.png"
+    imageWidth: 240
+    imageHeight: 240
+    imageTitle: wardensmp
+    buttons:
+      - name: About
+        url: about
+      - name: Posts
+        url: posts
+
+  socialIcons:
+    - name: discord
+      url: "https://discord.com/invite/eRM6aTfk46"
+    - name: github
+      url: "https://github.com/Al3xBogo/wardensmp.com"
+
+  editPost:
+    URL: "https://github.com/Al3xBogo/wardensmp.com/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+menu:
+  main:
+    - identifier: downloads
+      name: downloads
+      url: /downloads/
+      weight: 10
+    - identifier: rules
+      name: rules
+      url: /rules/
+      weight: 20
+    - identifier: contact
+      name: contact
+      url: /contact/
+      weight: 30
+    - identifier: map
+      name: map
+      url: https://map.wardensmp.com
+      weight: 40
