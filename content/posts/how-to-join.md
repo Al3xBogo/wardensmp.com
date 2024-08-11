@@ -14,7 +14,7 @@ WardenSMP is a **Minecraft Java Edition** server. If you have access to Java Edi
 ## Java Edition
 
 IP: **play.wardensmp.com**  
-Version: 1.18.2-1.21 ***(1.21 Recommended)***  
+Version: 1.18.2-1.21.1 ***(1.21 Recommended)***  
 
 ## Bedrock
 
